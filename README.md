@@ -8,5 +8,6 @@ objetos de bases de datos transaccionales, relacionales
 o data warehouse.
 
 **Conceptos**
--Soporte: El soporte del elemento o subconjunto X es el número de transacciones que contienen X dividido entre el total de transacciones.
--Umbra: soporte mínimo que debe cumplir un elemento o subconjunto para considerarse un conjunto frecuente.
+[TOCM]
+-Soporte: El soporte del elemento o subconjunto X es el número de transacciones que contienen X dividido entre el total de transacciones.;
+-Umbra: soporte mínimo que debe cumplir un elemento o subconjunto para considerarse un conjunto frecuente.;
