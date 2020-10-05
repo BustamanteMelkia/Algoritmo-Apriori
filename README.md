@@ -10,4 +10,11 @@ o data warehouse.
 **Conceptos**
 
 - Soporte: El soporte del elemento o subconjunto X es el número de transacciones que contienen X dividido entre el total de transacciones.
-- Umbra: soporte mínimo que debe cumplir un elemento o subconjunto para considerarse un conjunto frecuente.
+- Umbral: soporte mínimo que debe cumplir un elemento o subconjunto para considerarse un conjunto frecuente.
+
+**Datos de entrada:**
+
+Los datos requeridos para la ejecución del programa son obtenidos desde un archivo de texto. Dicho archivo debe ubicarse en la carpeta raíz del programa.
+El formato de los datos almacenados en el archivo se describe a continuación:
+El valor del umbral se especifica en la primera línea del archivo y corresponde a un tipo de dato decimal.
+A partir de la segunda línea de archivo, cada línea de datos corresponde a una transacción Una transacción está conformada por una sucesión de elementos separados por una coma. Un elemento es identificado mediante un número entero mayor a cero.
