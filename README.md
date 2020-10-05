@@ -21,17 +21,17 @@ El formato de los datos almacenados en el archivo se describe a continuación:
 - A partir de la segunda línea de archivo, cada línea de datos corresponde a una transacción Una transacción está conformada por una sucesión de elementos separados por una coma. Un elemento es identificado mediante un número entero mayor a cero.
 
 **Datos de Salida**
+
 Los datos mostrados en pantalla corresponden a los conjuntos frecuentes, que representan las combinaciones que superan el umbral especificado en el archivo de entrada.
 El número de conjuntos de salida cambia, incluso para las mismas transacciones de entrada si el umbral es diferente.
 
 Los conjuntos son listas mostradas según su orden, es decir:
 
-
-Elementos individuales
-Combinaciones pares
-Combinaciones a tercias
-...
-Combinaciones N
+- Elementos individuales
+- Combinaciones pares
+- Combinaciones a tercias
+- ...
+- Combinaciones N
 
 **Ejecución del programa**
 
