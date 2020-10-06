@@ -11,8 +11,10 @@ class Apriori():
 
     # Pasos para realizar el algoritmo Apri
     def iniciarAlgoritmo(self):
+        candidatos = []
+        frecuentes = []
+        combinaciones = []
         # Conjunto de elementos posibles a combinar entre sí
-        candidatos = frecuentes = combinaciones = []
         candidatos.append(self.toLista(self.obtenerElementos()))
         # Conjunto de candidatos que superar el umbral
         frecuentes.append(self.conjuntoFrecuente(candidatos[0])) # frecuentes tamanio 1

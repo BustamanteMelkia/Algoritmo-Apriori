@@ -8,4 +8,7 @@ transacciones = [[1,2,4],[2,4,5],[1,3],[1,2,4],[1,2,3],[2,4],[1,3],[1,2,4,5],[1,
 apriori = Apriori(transacciones, 2/9)
 frecuentes = []
 frecuentes = apriori.iniciarAlgoritmo()
-print(frecuentes)
+
+# Output
+for index in range(0, len(frecuentes)-1):
+    print(f'Conjunto(s) frecuente(s) de {index+1} elemento(s):\t',frecuentes[index])
